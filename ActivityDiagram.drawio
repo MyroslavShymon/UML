@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" modified="2024-02-23T13:57:02.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="mjohVMQEMd1mKZYYJ4kq" version="23.0.2" type="device">
+  <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
+    <mxGraphModel dx="2068" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-30" value="Персональний акаунт" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="790" y="40" width="250" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="cFeIjiZ2RGhiL326F2Nq-30" source="cFeIjiZ2RGhiL326F2Nq-32" target="cFeIjiZ2RGhiL326F2Nq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-32" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="cFeIjiZ2RGhiL326F2Nq-30">
+          <mxGeometry x="105" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-33" value="Створення персонального акаунта з особовим рахунком" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="cFeIjiZ2RGhiL326F2Nq-30">
+          <mxGeometry x="60" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-1" value="НАРАХУВАННЯ ЗАРПЛАТИ ПРАЦІВНИКУ" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1250" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-2" value="Банк" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
+          <mxGeometry y="20" width="250" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="cFeIjiZ2RGhiL326F2Nq-82" target="cFeIjiZ2RGhiL326F2Nq-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-82" value="Отримання платіжних відомостей" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="55" y="490" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="cFeIjiZ2RGhiL326F2Nq-84" target="cFeIjiZ2RGhiL326F2Nq-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-84" value="Зняття загальної суми з розрахункового&lt;br&gt;рахунку підприємств" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="40" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-86" value="Розподілення на карткові рахунки працівників згідно платіжних відомостей" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="40" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-3" value="Керівник" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
+          <mxGeometry x="250" y="20" width="250" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-3" source="cFeIjiZ2RGhiL326F2Nq-76" target="cFeIjiZ2RGhiL326F2Nq-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-76" value="Отримання платіжних відомостей" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-3">
+          <mxGeometry x="55" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-78" value="Підписання платіжних відомостей" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-3">
+          <mxGeometry x="55" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-4" value="Бухгалтерський відділ" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
+          <mxGeometry x="500" y="20" width="250" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-4" source="1c1d494c118603dd-5" target="cFeIjiZ2RGhiL326F2Nq-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-5" value="Бухгалтери по зарплаті протягом місяця визначають набір оплат кожного працівника" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="55" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-4" source="cFeIjiZ2RGhiL326F2Nq-61" target="cFeIjiZ2RGhiL326F2Nq-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-61" value="По завершенню місяця виконується розрахунок зарплати" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="43.75" y="300" width="162.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-25" value="Розрахунок відбувається за допомогою формул" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="206.25" y="370" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-4" source="cFeIjiZ2RGhiL326F2Nq-63" target="1c1d494c118603dd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-63" value="Отримання особового рахунку в бухобілку" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="55" y="130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-72" value="Формування платіжних відомостей" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="55" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-55" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="1c1d494c118603dd-25" target="cFeIjiZ2RGhiL326F2Nq-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-80" value="Експорт платіжних відомостей в банк" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="55" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-1" source="cFeIjiZ2RGhiL326F2Nq-72" target="cFeIjiZ2RGhiL326F2Nq-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-1" source="cFeIjiZ2RGhiL326F2Nq-78" target="cFeIjiZ2RGhiL326F2Nq-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1c1d494c118603dd-1" source="cFeIjiZ2RGhiL326F2Nq-80" target="cFeIjiZ2RGhiL326F2Nq-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="530" />
+              <mxPoint x="195" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cFeIjiZ2RGhiL326F2Nq-33" target="cFeIjiZ2RGhiL326F2Nq-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-94" value="Корпоративна система чату" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="250" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-98" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="cFeIjiZ2RGhiL326F2Nq-94" target="cFeIjiZ2RGhiL326F2Nq-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-99" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="cFeIjiZ2RGhiL326F2Nq-94">
+          <mxGeometry x="105" y="780" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-100" value="Сповіщення всіх поточних користувачів про&lt;br&gt;перерахування зарплати на карткові рахунки" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="cFeIjiZ2RGhiL326F2Nq-94">
+          <mxGeometry x="40" y="680" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFeIjiZ2RGhiL326F2Nq-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cFeIjiZ2RGhiL326F2Nq-86" target="cFeIjiZ2RGhiL326F2Nq-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
